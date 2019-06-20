@@ -22,7 +22,7 @@ php artisan make:controller DateController
 ```
 And now write the code into DateController by cloning  as follows
 ``` bash
-git clone
+git clone https://github.com/EkloSahas/NepaliDateConverter.git
 ```
 Create two functions in helpers as
 ``` bash
