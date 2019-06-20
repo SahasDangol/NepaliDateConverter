@@ -75,7 +75,7 @@ php artisan serve
 #goto url
 localhost:8000/convert
 ```
-#Important thing to remember
+# Important thing to remember
 ``` bash
 The date format should be in "Y-m-d"
 ```
