@@ -61,3 +61,7 @@ echo get_nepali_date($english_date);// A.D. to B.S.
 
 echo get_english_date($nepali_date);// B.S. to A.D.
 ```
+#Important thing to remember
+``` bash
+The date format should be in "Y-m-d"
+```
