@@ -8,9 +8,9 @@ Install composer from [here](https://getcomposer.org/Composer-Setup.exe).
 
 Install Git bash from [here](https://git-scm.com/download/win)
 
-Clone the project by running command on git bash:
+Create a project by running command on git bash:
 ``` bash
-git clone https://github.com/shrestharikesh/News-Portal.git
+composer create-project laravel/laravel DateConverter
 ```
 cd into the project :
 ``` bash
