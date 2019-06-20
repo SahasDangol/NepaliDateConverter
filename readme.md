@@ -44,4 +44,20 @@ if (!function_exists('get_english_date')) {
 }
 
 ```
+Don't forget to import the DateController class in helper
+``` bash
+use App\Http\Controllers\DateController;
+```
+Now Create another Controller :
+``` bash
+php artisan make:controller TestController
+```
+And now write the code into TestController as follows
+``` bash
+$english_date="2019-06-20";
+$nepali_date="2052-08-03";
 
+echo get_nepali_date($english_date);// A.D. to B.S.
+
+echo get_english_date($nepali_date);// B.S. to A.D.
+```
