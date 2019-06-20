@@ -23,3 +23,25 @@ And now write the code into DateController by cloning  as follows
 ``` bash
 git clone
 ```
+Create two functions in helpers as
+``` bash
+if (!function_exists('get_nepali_date')) {
+    function get_nepali_date($date)
+    {
+        $bsdate = new DateController();
+        return $bsdate->eng_to_nep($date);
+
+    }
+}
+
+if (!function_exists('get_english_date')) {
+    function get_english_date($date)
+    {
+        $bsdate = new DateController();
+        return $bsdate->nep_to_eng($date);
+
+    }
+}
+
+```
+
