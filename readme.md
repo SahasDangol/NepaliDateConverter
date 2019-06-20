@@ -11,7 +11,15 @@ Create a project by running command on git bash:
 ``` bash
 composer create-project laravel/laravel DateConverter
 ```
-cd into the project :
+Go to the project :
 ``` bash
-cd News-Portal
+cd DateConverter
+```
+Create a Controller :
+``` bash
+php artisan make:controller DateController
+```
+And now write the code into DateController by cloning  as follows
+``` bash
+git clone
 ```
