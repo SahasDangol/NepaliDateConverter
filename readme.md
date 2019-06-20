@@ -55,12 +55,25 @@ php artisan make:controller TestController
 ```
 And now write the code into TestController as follows
 ``` bash
+public function convert()
+{
 $english_date="2019-06-20";
 $nepali_date="2052-08-03";
 
 echo get_nepali_date($english_date);// A.D. to B.S.
-
+echo "\n";
 echo get_english_date($nepali_date);// B.S. to A.D.
+}
+```
+Now create a url for the convert function TestController
+``` bash
+Route::get('/convert','TestController@convert');
+```
+Now run the project and goto url
+``` bash
+php artisan serve
+#goto url
+localhost:8000/convert
 ```
 #Important thing to remember
 ``` bash
